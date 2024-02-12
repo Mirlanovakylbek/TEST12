@@ -16,20 +16,23 @@
     background-position: center;
     border-radius: 30px;
     background-repeat: no-repeat;
-    h1{
+
+    h1 {
         align-items: end;
         display: flex;
-        text-align: start;
+        // text-align: start;
     }
-    h2{
+
+    h2 {
         align-items: end;
-        text-align: start;
+        // text-align: start;
         display: flex;
     }
-    p{
+
+    p {
         align-items: end;
         display: flex;
-        text-align: start;
+        // text-align: start;
     }
 }
 
@@ -59,8 +62,6 @@
 .blog_4 {
     display: flex;
     width: 100%;
-    align-items: end;
-    justify-content: center;
     height: 300px;
     background-image: url('../img/blog_4.jpg');
     background-position: center;
@@ -90,23 +91,40 @@
     background-repeat: no-repeat;
 
 }
+
 .hop {
     display: grid;
     align-items: end;
     text-align: center;
+    padding: 50px;
+
     h1 {
         justify-content: center;
         color: white;
     }
+
     h2 {
         justify-content: center;
         color: white;
     }
+
     p {
         justify-content: center;
         color: white;
     }
 }
-.hop1{
+
+.hop1 {
     color: white;
+    font-size: 20px;
+}
+
+.hich {
+    height: 150px;
+    display: flex;
+    width: 100%;
+    text-align: start;
+    // justify-content: center;
+    align-items: center;
+    // gap: 100px;
 }

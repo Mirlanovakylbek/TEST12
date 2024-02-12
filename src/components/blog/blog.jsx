@@ -12,63 +12,75 @@ export default function Blog() {
             <div className="blogs">
                 <div className="boxy">
                     <div className="blog_1">
-                        <div className="hop">
-                            <h2>Классический групповой <br />тур по Узбекистану</h2>
-                            <p>Ташкент, Хива, Бухара, Самарканд</p>
-                            <h1><TbCalendar />18 августа</h1>
-                        </div>
-                        <div className="hop1">
-                            <h1>$ 700</h1>
+                        <div className="hich">
+                            <div className="hop">
+                                <h2>Классический групповой <br />тур по Узбекистану</h2>
+                                <p>Ташкент, Хива, Бухара, Самарканд</p>
+                                <h1><TbCalendar />18 августа</h1>
+                            </div>
+                            <div className="hop1">
+                                <h1>$ 700</h1>
+                            </div>
                         </div>
                     </div>
                     <div className="blog_2">
-                        <div className="hop">
-                            <h2>Классический групповой <br />тур по Узбекистану</h2>
-                            <p>Ташкент, Хива, Бухара, Самарканд</p>
-                            <h1><TbCalendar />18 августа</h1>
-                        </div>
-                        <div className="hop1">
-                            <h1>$ 700</h1>
+                        <div className="hich">
+                            <div className="hop">
+                                <h2>Классический групповой <br />тур по Узбекистану</h2>
+                                <p>Ташкент, Хива, Бухара, Самарканд</p>
+                                <h1><TbCalendar />18 августа</h1>
+                            </div>
+                            <div className="hop1">
+                                <h1>$ 700</h1>
+                            </div>
                         </div>
                     </div>
                     <div className="blog_3">
-                        <div className="hop">
-                            <h2>Классический групповой <br />тур по Узбекистану</h2>
-                            <p>Ташкент, Хива, Бухара, Самарканд</p>
-                            <h1><TbCalendar />18 августа</h1>
-                        </div>
-                        <div className="hop1">
-                            <h1>$ 700</h1>
+                        <div className="hich">
+                            <div className="hop">
+                                <h2>Классический групповой <br />тур по Узбекистану</h2>
+                                <p>Ташкент, Хива, Бухара, Самарканд</p>
+                                <h1><TbCalendar />18 августа</h1>
+                            </div>
+                            <div className="hop1">
+                                <h1>$ 700</h1>
+                            </div>
                         </div>
                     </div>
                     <div className="blog_4">
-                        <div className="hop">
-                            <h2>Классический групповой <br />тур по Узбекистану</h2>
-                            <p>Ташкент, Хива, Бухара, Самарканд</p>
-                            <h1><TbCalendar />18 августа</h1>
-                        </div>
-                        <div className="hop1">
-                            <h1>$ 700</h1>
+                        <div className="hich">
+                            <div className="hop">
+                                <h2>Классический групповой <br />тур по Узбекистану</h2>
+                                <p>Ташкент, Хива, Бухара, Самарканд</p>
+                                <h1><TbCalendar />18 августа</h1>
+                            </div>
+                            <div className="hop1">
+                                <h1>$ 700</h1>
+                            </div>
                         </div>
                     </div>
                     <div className="blog_5">
-                        <div className="hop">
-                            <h2>Классический групповой <br />тур по Узбекистану</h2>
-                            <p>Ташкент, Хива, Бухара, Самарканд</p>
-                            <h1><TbCalendar />18 августа</h1>
-                        </div>
-                        <div className="hop1">
-                            <h1>$ 700</h1>
+                        <div className="hich">
+                            <div className="hop">
+                                <h2>Классический групповой <br />тур по Узбекистану</h2>
+                                <p>Ташкент, Хива, Бухара, Самарканд</p>
+                                <h1><TbCalendar />18 августа</h1>
+                            </div>
+                            <div className="hop1">
+                                <h1>$ 700</h1>
+                            </div>
                         </div>
                     </div>
                     <div className="blog_6">
-                        <div className="hop">
-                            <h2>Классический групповой <br />тур по Узбекистану</h2>
-                            <p>Ташкент, Хива, Бухара, Самарканд</p>
-                            <h1><TbCalendar />18 августа</h1>
-                        </div>
-                        <div className="hop1">
-                            <h1>$ 700</h1>
+                        <div className="hich">
+                            <div className="hop">
+                                <h2>Классический групповой <br />тур по Узбекистану</h2>
+                                <p>Ташкент, Хива, Бухара, Самарканд</p>
+                                <h1><TbCalendar />18 августа</h1>
+                            </div>
+                            <div className="hop1">
+                                <h1>$ 700</h1>
+                            </div>
                         </div>
                     </div>
                 </div>
