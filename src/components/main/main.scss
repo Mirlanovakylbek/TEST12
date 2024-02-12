@@ -1,0 +1,36 @@
+.durex {
+    width: 100%;
+    max-width: 95%;
+    margin: 0 auto;
+    // height: 20px;
+    padding: 30px;
+}
+
+.loading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    // gap: 70px;
+    width: 91%;
+    height: 50px;
+    border-radius: 30px;
+    align-items: center;
+    padding: 10px 10px;
+    background: #EAF5EF;
+
+    a {
+        font-family: Montserrat;
+        font-size: 25px;
+        color: black;
+        display: flex;
+        list-style: none;
+        padding: 35px;
+
+        font-weight: 500;
+        text-decoration: none;
+        // line-height: 22px;
+        // text-align: left;
+
+    }
+
+}
