@@ -1,8 +1,7 @@
 import './main.scss'
 import React from 'react'
 
-export default function Main() {\
-    /// test 
+export default function Main() {
     return(
         <div className="durex">
             <div className="loading">
