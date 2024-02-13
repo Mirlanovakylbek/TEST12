@@ -2,7 +2,7 @@ import './main.scss'
 import React from 'react'
 
 export default function Main() {
-    return(
+    return (
         <div className="durex">
             <div className="loading">
                 <a href="">Главная</a>
