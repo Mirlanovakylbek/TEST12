@@ -2,7 +2,6 @@ import './main.scss'
 import React from 'react'
 
 export default function Main() {
-    /// test 123456789
     return (
         <div className="durex">
             <div className="loading">

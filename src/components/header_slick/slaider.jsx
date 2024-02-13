@@ -50,7 +50,7 @@ export default function App() {
           <SwiperSlide className='drack_8'><img src={photo} /></SwiperSlide>
           <SwiperSlide className='drack_9'><img src={photo} /></SwiperSlide>
         </Swiper>
-        
+
       </div>
     </>
   );
