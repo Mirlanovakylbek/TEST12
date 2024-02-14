@@ -1,4 +1,5 @@
 import './App.css';
+import What from './components/What/What';
 import Blog from './components/blog/blog';
 import Header from './components/header/header';
 import Slid from './components/header_slick/slaider';
@@ -11,6 +12,7 @@ function App() {
       <Slid />
       <Main/>
       <Blog/>
+      <What/>
     </div>
   );
 }
