@@ -18,6 +18,9 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 export default function App() {
   return (
     <>
+    <div className="wrap">
+      
+    </div>
       <div className="from">
         <Swiper
           spaceBetween={30}

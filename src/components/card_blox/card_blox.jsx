@@ -11,6 +11,7 @@ import logo4 from '../card_blox/card_img/card_img2.jpg'
 export default function Card_blox() {
     return (
         <div class="wrapper">
+            <div className="wrap">
             <div className="flower">
 
                 <div class="shadow-text">
@@ -91,6 +92,7 @@ export default function Card_blox() {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     )

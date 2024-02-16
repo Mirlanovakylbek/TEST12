@@ -3,6 +3,7 @@ import './What.scss'
 
 export default function What() {
     return (
+        <>
         <div className="wrap">
             <div className="What">
                 <div className="txt">
@@ -17,5 +18,7 @@ export default function What() {
                 </div>
             </div>
         </div>
+        </>
+
     )
 }
