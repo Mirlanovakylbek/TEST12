@@ -13,7 +13,7 @@ function App() {
       <Slid />
       <Main/>
       <Blog/>
-      {/* <What/> */}
+      <What/>
       <Card_blox/>
     </div>
   );
