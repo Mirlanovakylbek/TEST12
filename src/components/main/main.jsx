@@ -4,6 +4,7 @@ import React from 'react'
 export default function Main() {
     return (
         <div className="durex">
+            <div className="wrap">
             <div className="loading">
                 <a href="">Главная</a>
                 <a href="">Гарантированные туры</a>
@@ -12,6 +13,7 @@ export default function Main() {
                 <a href="">Отзывы клиентов</a>
                 <a href="">Аренда авто</a>
                 <a href="">Создай свой тур</a>
+            </div>
             </div>
         </div>
     )

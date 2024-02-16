@@ -8,18 +8,24 @@ import { TbCalendar } from "react-icons/tb";
 
 import './slaider.scss';
 import photo from '../img/лого.png'
+import img_phon from '../img/telegram.jpg'
+import img_phon1 from '../img/whatsapp.jpg'
+import img_phon2 from '../img/instagram.avif'
+
 
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 export default function App() {
   return (
     <>
+    <div className="wrap">
+
       <div className="from">
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
           autoplay={{
-            delay: 2500,
+            delay: 9999992500,
             disableOnInteraction: false,
           }}
           pagination={{
@@ -50,7 +56,12 @@ export default function App() {
           <SwiperSlide className='drack_8'><img src={photo} /></SwiperSlide>
           <SwiperSlide className='drack_9'><img src={photo} /></SwiperSlide>
         </Swiper>
-
+        <div className="tresh">
+          <a target="_blank" href="https://www.instagram.com/"><img src={img_phon2} /></a>
+          <a target="_blank" href="https://web.tlgrm.app/"><img className='teleg' src={img_phon} /></a>
+          <a target="_blank" href="https://web.whatsapp.com/"><img src={img_phon1} /></a>
+        </div>
+    </div>
       </div>
     </>
   );
