@@ -5,7 +5,7 @@ import { IoMenu } from "react-icons/io5";
 export default function Header() {
     return (
         <div className="container">
-            <div className="wrap">
+            <div className="wrap">             
             <div className="cop">
                 <h2>Nokmads life Kyrgyzstan </h2>
                 <div className="gif">

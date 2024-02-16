@@ -12,7 +12,6 @@ export default function Card_blox() {
     return (
         <div class="wrapper">
             <div className="wrap">
-
             <div className="flower">
 
                 <div class="shadow-text">

@@ -19,7 +19,8 @@ export default function App() {
   return (
     <>
     <div className="wrap">
-
+      
+    </div>
       <div className="from">
         <Swiper
           spaceBetween={30}
@@ -61,7 +62,6 @@ export default function App() {
           <a target="_blank" href="https://web.tlgrm.app/"><img className='teleg' src={img_phon} /></a>
           <a target="_blank" href="https://web.whatsapp.com/"><img src={img_phon1} /></a>
         </div>
-    </div>
       </div>
     </>
   );
