@@ -10,14 +10,14 @@ import logo4 from '../card_blox/card_img/card_img2.jpg'
 
 export default function Card_blox() {
     return (
-        <div class="wrapper">
             <div className="wrap">
+        <div class="wrapper">
             <div className="flower">
 
                 <div class="shadow-text">
                     <p class="shadow-text">Топ-5 вариантов для вашего стиля путешествия</p>
                 </div>
-                
+
                 <div class="card">
                     <div class="face face1">
                         <div class="content">
