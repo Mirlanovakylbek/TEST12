@@ -1,5 +1,6 @@
 import React from "react";
 import './What.scss'
+import bounty from '../What/img_What/foxy1.png'
 
 export default function What() {
     return (
@@ -14,7 +15,7 @@ export default function What() {
                     </p>
                 </div>
                 <div className="text_slick">
-                    
+                <img src={bounty} alt="" />
                 </div>
             </div>
         </div>

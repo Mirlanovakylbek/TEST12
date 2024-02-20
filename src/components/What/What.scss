@@ -1,8 +1,47 @@
 .What {
-    background-image: url('./img_What/what_photo.png');
-    background-position: center;
     margin: 0 auto;
-    background-repeat: no-repeat;
     height: 800px;
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+
+    img {
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: end;
+        border-radius: 10px;
+    }
+}
+
+.txt {
+    position: relative;
+
+    h1 {
+        font-family: Cormorant;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: left;
+
+    }
+
+    p {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        text-align: left;
+
+    }
+}
+.text_slick {
+    
+    img {
+        width: 600px;
+        height: 400px;
+        left: 793px;
+
+    }
 }
