@@ -7,6 +7,7 @@ import blog3 from "../img/blog_3.jpg";
 import blog4 from "../img/blog_4.jpg";
 import blog5 from "../img/blog_5.jpg";
 import blog6 from "../img/blog_6.jpg";
+import { CgChevronRight } from "react-icons/cg";
 
 const applicants = [
   {
@@ -103,6 +104,9 @@ export default function Blog() {
               })}
             </div>
           </div>
+              <div className="coc">
+                <h1> Смтреть все <CgChevronRight /> </h1>
+              </div>
         </div>
       </div>
     </div>
