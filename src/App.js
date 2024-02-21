@@ -1,4 +1,5 @@
 import './App.css';
+import Reviews from './components/Reviews/reviews';
 import What from './components/What/What';
 import Blog from './components/blog/blog';
 import Accordion from './components/card_blox/cart_bloxi';
@@ -15,6 +16,7 @@ function App() {
       <Blog/>
       <What/>
       <Accordion/>
+      <Reviews/>
     </div>
   );
 }

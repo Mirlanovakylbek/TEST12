@@ -49,6 +49,7 @@ const Accordion = () => {
 
 const images = [
   {
+    id: 1,
     alt: 'image1.jpg',
     src: cart1,
     nxn: "Природа и горы",
@@ -60,6 +61,7 @@ const images = [
     text4: 'Культурная Эпопея',
   },
   {
+    id: 2,
     alt: 'image2.jpg',
     src: cart3,
     nxn: "Природа и горы",
@@ -71,6 +73,7 @@ const images = [
     text4: 'Культурная Эпопея',
   },
   {
+    id: 3,
     alt: 'image3.jpg',
     src: cart4,
     nxn: "Природа и горы",
@@ -82,6 +85,7 @@ const images = [
     text4: 'Культурная Эпопея',
   },
   {
+    id:4,
     alt: 'image4.jpg',
     src: cart1,
     nxn: "Природа и горы",
@@ -93,6 +97,7 @@ const images = [
     text4: 'Культурная Эпопея',
   },
   {
+    id: 6,
     alt: 'image5.jpg',
     src: cart3,
     nxn: "Природа и горы",
@@ -104,6 +109,7 @@ const images = [
     text4: 'Культурная Эпопея',
   },
   {
+    id: 6,
     alt: 'image6.jpg',
     src: cart4,
     nxn: "Природа и горы",
