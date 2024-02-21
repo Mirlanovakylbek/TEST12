@@ -24,7 +24,7 @@ export default function App() {
           spaceBetween={30}
           centeredSlides={true}
           autoplay={{
-            delay: 9999992500,
+            delay: 2500,
             disableOnInteraction: false,
           }}
           pagination={{
