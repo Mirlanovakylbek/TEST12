@@ -1,12 +1,31 @@
-import React from "react";
 import './What.scss'
 import bounty from '../What/img_What/foxy1.png'
-// import knock_ from '../What/img_What/knock_1.jpg'
-// import knock__ from '../What/img_What/knock_2.jpg'
-// import knock___ from '../What/img_What/knock_3.jpg'  
+import knock_ from '../What/img_What/knock_1.jpg'
+import knock__ from '../What/img_What/knock_2.jpg'
+import knock___ from '../What/img_What/knock_3.jpg'
+////
+import React, { useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+import { Autoplay, Pagination } from "swiper";
+
+// import { Swiper, SwiperSlide } from 'swiper/react';
+
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+
+// import { Pagination, } from 'swiper/modules';
+
 
 export default function What() {
     
+    const [swiper, setSwiper] = useState();
+    let [loding, setLoding] = useState(false);
+
     return (
         <>
             <div className="wrap">
@@ -24,7 +43,38 @@ export default function What() {
                         </div>
                     </div>
                     <div className="nomer_2">
-                        
+                        <Swiper
+                            slidesPerView={1}
+                            spaceBetween={30}
+                            loop={true}
+                            pagination={{
+                                clickable: true,
+                            }}
+                            autoplay={{
+                                disableOnInteraction: false,
+                                delay: 2500,
+                            }}
+                            breakpoints={{
+                                766: {
+                                    slidesPerView: 1.3,
+                                },
+                            }}
+                            navigation={true}
+                            className="mySwiper"
+                            onSwiper={(s) => {
+                                setSwiper(s);
+                            }}
+                        >
+                            <SwiperSlide> <img src={knock_} alt="" /> </SwiperSlide>
+                            <SwiperSlide> <img src={knock__} alt="" /> </SwiperSlide>
+                            <SwiperSlide> <img src={knock___} alt="" /> </SwiperSlide>
+                        </Swiper>
+                        <button  onClick={() => swiper.slidePrev()}>
+                            {/*<ArrowBackIosIcon /> */}
+                        </button>
+                        <button onClick={() => swiper.slideNext()}>
+                            {/* <ArrowForwardIosIcon /> */}
+                        </button>
                     </div>
                 </div>
             </div>

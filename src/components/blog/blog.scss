@@ -22,7 +22,8 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  // padding: 8px;
+  justify-content: space-between;
+  display: flex;
   background-color: rgba(128, 128, 128, 0.8);
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -37,18 +38,15 @@
 }
 
 .hop1 {
-  // background-color: rgba(128, 128, 128, 0.5);
   padding: 10px;
   border-radius: 5px;
   color: white;
 
-  //     h1{
-  // height: 29px
-  //     }
 }
 
 .forum {
   padding: 60px 0;
+
   h1 {
     font-family: Cormorant;
     font-size: 33px;
@@ -62,6 +60,7 @@
 .hop3 {
   display: grid;
   row-gap: 3px;
+
   h2 {
     width: 241px;
     height: 38px;
@@ -104,25 +103,22 @@
   }
 }
 
-.coc{
+.coc {
   display: flex;
   justify-content: center;
   padding: 30px 0;
-  h1{
+
+  h1 {
     width: 204px;
-height: 64px;
-padding: 20px;
-border-radius: 300px;
-background: #14AE5C;
-font-family: Montserrat;
-font-size: 18px;
-font-weight: 600;
-line-height: 22px;
-letter-spacing: 0em;
-text-align: left;
-color: #FCFCFC;
-display: flex;
-text-align: center;
-gap: 10px;
+    height: 64px;
+    border-radius: 300px;
+    background: #14AE5C;
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #FCFCFC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
   }
 }
