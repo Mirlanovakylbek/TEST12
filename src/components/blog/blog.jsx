@@ -105,7 +105,7 @@ export default function Blog() {
             </div>
           </div>
               <div className="coc">
-                <h1> Смтреть все <CgChevronRight /> </h1>
+                <h1> Смотреть все <CgChevronRight /> </h1>
               </div>
         </div>
       </div>
