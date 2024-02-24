@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer/footer';
 import Reviews from './components/Reviews/reviews';
 import What from './components/What/What';
 import Blog from './components/blog/blog';
@@ -17,6 +18,7 @@ function App() {
       <What/>
       <Accordion/>
       <Reviews/>
+      <Footer/>
     </div>
   );
 }

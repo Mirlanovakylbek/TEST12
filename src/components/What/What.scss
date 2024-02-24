@@ -1,96 +1,74 @@
 .What {
-    display: grid;
-    .nomer_1{
-        margin: 0 auto;
-        height: 800px;
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        max-width: 100%;
-    }
+  display: grid;
 
-    img {
-        width: 300px;
-        height: 300px;
-        display: flex;
-        justify-content: end;
-        border-radius: 10px;
-    }
+  .nomer_1 {
+    margin: 0 auto;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+  }
+
+  img {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: end;
+    border-radius: 10px;
+  }
 }
 
 .txt {
-    position: relative;
+  position: relative;
 
-    h1 {
-        font-family: Cormorant;
-        font-size: 50px;
-        font-weight: 700;
-        line-height: 108px;
-        text-align: left;
+  h1 {
+    font-family: Cormorant;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 108px;
+    text-align: left;
 
-    }
+  }
 
-    p {
-        font-family: Montserrat;
-        font-size: 25px;
-        font-weight: 500;
-        line-height: 27px;
-        text-align: left;
+  p {
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
 
-    }
+  }
 }
+
 .text_slick {
-    
-    img {
-        width: 650px;
-        height: 450px;
-        left: 793px;
 
-    }
+  img {
+    width: 750px;
+    height: 500px;
+  }
 }
-///
-#app {
-    height: 100%;
-  }
-  html,
-  body {
-    position: relative;
-    height: 100%;
-  }
-  
-  body {
-    background: #eee;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .swiper {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .swiper {
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
+
+.nomer_2 {
+  display: flex;
+  width: 90%;
+  max-width: 1580px;
+  height: 400px;
+
+}
+
+.nomer_3 {
+  width: 65%;
+  max-width: 1560px;
+  height: 300px;
+}
+.text_forum {
+  font-family: Lato;
+font-size: 20px;
+padding: 80px 50px;
+color: #313131;
+
+}
+.swiper {
+  height: 300px;
+}
