@@ -3,22 +3,14 @@ import bounty from '../What/img_What/foxy1.png'
 import knock_ from '../What/img_What/knock_1.jpg'
 import knock__ from '../What/img_What/knock_2.jpg'
 import knock___ from '../What/img_What/knock_3.jpg'
-////
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Autoplay, Pagination } from "swiper";
-
-// import { Swiper, SwiperSlide } from 'swiper/react';
-
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
-
-// import { Pagination, } from 'swiper/modules';
 
 
 export default function What() {
@@ -43,20 +35,25 @@ export default function What() {
                         </div>
                     </div>
                     <div className="nomer_2">
+                        <div className="nomer_3">
                         <Swiper
-                            slidesPerView={1}
+                            slidesPerView={2}
                             spaceBetween={30}
-                            loop={true}
+                            height={300}
                             pagination={{
                                 clickable: true,
+                                height: 300,
+
                             }}
                             autoplay={{
                                 disableOnInteraction: false,
                                 delay: 2500,
+                                height: 300,
                             }}
                             breakpoints={{
                                 766: {
-                                    slidesPerView: 1.3,
+                                    slidesPerView: 3,
+                                    height: 300,
                                 },
                             }}
                             navigation={true}
@@ -65,16 +62,22 @@ export default function What() {
                                 setSwiper(s);
                             }}
                         >
-                            <SwiperSlide> <img src={knock_} alt="" /> </SwiperSlide>
-                            <SwiperSlide> <img src={knock__} alt="" /> </SwiperSlide>
-                            <SwiperSlide> <img src={knock___} alt="" /> </SwiperSlide>
+                            <SwiperSlide style={{height:'330px'}}> <img src={knock_} alt="" /> </SwiperSlide>
+                            <SwiperSlide style={{height:'330px'}}> <img src={knock__} alt="" /> </SwiperSlide>
+                            <SwiperSlide style={{height:'330px'}}> <img src={knock___} alt="" /> </SwiperSlide>
                         </Swiper>
-                        <button  onClick={() => swiper.slidePrev()}>
-                            {/*<ArrowBackIosIcon /> */}
-                        </button>
-                        <button onClick={() => swiper.slideNext()}>
-                            {/* <ArrowForwardIosIcon /> */}
-                        </button>
+                        </div>
+                        <div className="text_forum">
+                            <p>Давайте сделаем ваше путешествие <br />
+                            незабываемым! Присоединяйтесь к "NOMAD <br />
+                            LIFE" и откройте новые грани жизни, <br />
+                            наполненные приключениями, дружбой и <br />
+                            удивительными открытиями. Не ждите – мир <br />
+                            жаждет вас, и мы с радостью проведем вас за <br />
+                            руку через этот волшебный портал! Ваше <br />
+                            лучшее приключение ждет вас здесь и сейчас – <br />
+                            только с "NOMAD LIFE"!</p>
+                        </div>
                     </div>
                 </div>
             </div>

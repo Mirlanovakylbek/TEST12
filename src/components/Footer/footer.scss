@@ -1,0 +1,82 @@
+.footer_2 {
+    justify-content: space-between;
+    display: flex;
+    background: #EAF5EF;
+}
+.footer {
+    display: grid;
+}
+
+.game_2 {
+   display: grid;
+}
+.game_3 {
+    display: flex;
+    gap: 650px;
+    padding: 10px 50px;
+
+}
+.footer_img{
+    font-size: 30px;
+    display: flex;
+    gap: 30px;
+    ul{
+        gap: 20px;
+        display: flex;
+        display: flex;
+    }
+}
+.bomber {
+    display: flex;
+    gap: 150px;
+    padding: 50px;
+}
+
+.footer_header {
+    display: grid;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.footer_main {
+    display: grid;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.tel_nome {
+    display: grid;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+}
+
+.graf {
+    display: grid;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    color: gray;
+}
+
+.game_1 {
+    padding: 50px 10px;
+
+    img {
+        width: 170px;
+        height: 170px;
+
+    }
+
+}
+
+.wrap_1 {
+    max-width: 1550px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
