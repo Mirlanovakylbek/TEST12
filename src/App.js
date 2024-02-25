@@ -1,4 +1,3 @@
-import './App.css';
 import Footer from './components/Footer/footer';
 import Reviews from './components/Reviews/reviews';
 import What from './components/What/What';

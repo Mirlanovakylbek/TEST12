@@ -5,13 +5,22 @@
     padding: 40px 0;
     width: 100%;
     gap: 40px;
+
+    @media screen and (max-width: 900px) {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media screen and (max-width: 850px) {
+        grid-template-columns: 1fr ;
+    }
  
 }
 
 .accordion-item{
     position: relative;
     img{
-        width: 370px;
+        width: 100%;
+        // width: 370px;
         height: 133px;
         padding: 0px, 61px, 0px, 61px; 
         border-radius: 20px;
@@ -55,7 +64,7 @@ color: #FFFFFF;
     background: #EAF5EF;
     box-shadow: 0px 0px 15px 0px rgba(119, 119, 119, 0.10);   
      height: 200px;
-    width: 98%;
+    width: 100%;
     border-radius: 0 0 20px 20px;
     z-index: 1;
 
@@ -82,7 +91,6 @@ color: #010101;
 padding: 20px 0 0 20px;
 display: flex;
 gap: 15px;
-
-
     }
 }
+
