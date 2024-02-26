@@ -1,13 +1,18 @@
-import React from "react";
-import './Tour.scss'
+import React from 'react'
+import Header from '../../header/header'
+import Main from '../../main/main'
+import App from '../../header_slick/slaider'
 
-export default function Tour_1() {
-    return(
-        <div className="wrap">
-            <div className="tour_container">
-                <h1>vubhcinjomk</h1>
-                <p>eubinomp,s</p>
-            </div>
-        </div>
-    )
+
+function Tour() {
+  return (
+    <div>
+        <Header />
+        <App />
+        <Main />
+
+    </div>
+  )
 }
+
+export default Tour
