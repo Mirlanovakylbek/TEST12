@@ -51,10 +51,10 @@ export default function Footer() {
                             </div>
                             <div className="footer_img">
                                 <ul>
-                                    <li className="lis"><FaSquareFacebook /></li>
-                                    <li className="lis"><FaInstagramSquare /></li>
-                                    <li className="lis"><BsTwitter /></li>
-                                    <li className="lis"><FaYoutube /></li>
+                                    <li className="lis"><a href="https://www.facebook.com/?locale=ru_RU" target="_blank" rel="noopener noreferrer"><FaSquareFacebook /></a></li>
+                                    <li className="lis"><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><FaInstagramSquare /></a></li>
+                                    <li className="lis"><a href="https://twitter.com/?lang=ru" target="_blank" rel="noopener noreferrer"><BsTwitter /></a></li>
+                                    <li className="lis"><a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><FaYoutube /></a></li>
                                 </ul>
                             </div>
                         </div>
