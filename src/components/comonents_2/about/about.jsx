@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../../header/header'
 import Main from '../../main/main'
 import App from '../../header_slick/slaider'
+import Abich from './abouts'
 
 function About() {
   return (
@@ -9,6 +10,7 @@ function About() {
         <Header />
         <App/>
         <Main />
+        <Abich/>
     </div>
   )
 }
