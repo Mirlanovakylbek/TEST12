@@ -20,8 +20,8 @@
   }
   
   button{
-    border: none;
     cursor: pointer;
+    border: none;
   }
   
   input{
