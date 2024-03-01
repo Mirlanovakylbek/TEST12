@@ -52,7 +52,7 @@ export default function What() {
                             }}
                             breakpoints={{
                                 766: {
-                                    slidesPerView: 3,
+                                    slidesPerView: 2.5,
                                     height: 300,
                                 },
                             }}

@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import './main.scss'
 import React from 'react'
 
@@ -6,13 +7,13 @@ export default function Main() {
         <div className="durex">
             <div className="wrap">
             <div className="loading">
-                <a href="">Главная</a>
-                <a href="">Гарантированные туры</a>
-                <a href="">О нас</a>
-                <a href="">Контакты</a>
-                <a href="">Отзывы клиентов</a>
-                <a href="">Аренда авто</a>
-                <a href="">Создай свой тур</a>
+                <NavLink to='/'>Главная</NavLink>
+                <NavLink to='/tours'>Гарантированные туры</NavLink>
+                <NavLink to='/about'>О нас</NavLink>
+                <NavLink to={'/contact'}>Контакты</NavLink>
+                <NavLink to={'/reviews'}>Отзывы клиентов</NavLink>
+                <NavLink to={'/cars'}>Аренда авто</NavLink>
+                <NavLink to={'/creation'}>Создай свой тур</NavLink>
             </div>
             </div>
         </div>
