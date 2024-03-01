@@ -10,7 +10,6 @@ function Tour() {
         <Header />
         <App />
         <Main />
-
     </div>
   )
 }
